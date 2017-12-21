@@ -15055,27 +15055,25 @@ $( document ).ready(code_toggle);
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1>$ Statistics: The\, Science\, of\, Decisions$</h1><p><b>Background Information</b><br>
-<i>In a Stroop task, participants are presented with a list of words with each word displayed in a color of ink. The participant’s task is to say out loud the color of the ink in which the word is printed. The task has two conditions: a congruent words condition and an incongruent words condition. In the congruent words condition, the words being displayed are color words whose names match the colors in which they are printed: for example RED is red, BLUE is blue.</i> 
-&lt;img src = "img/img_1.jpg"&gt;
-<i>In the incongruent words condition, the words displayed are color words whose names do not match the colors in which they are printed: for example PURPLE is blue, BROWN is green.</i> 
-&lt;img src = "img/img_2.png"&gt;
-<i>In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.</i></p>
-<p><b>Q1:</b><i> What is our independent variable? What is our dependent variable?</i></p>
-<p><b>A1:</b><i> An independent variable, also known an experimental or predictor variable, is a variable that is being manipulated in an experiment in order to observe the effect on a dependent variable, sometimes called an outcome variable.</i><br>
-<i>In this study, our independent variable is, <b>Congruent and Incongruent words condition.</b> Our dependent variable is,<b> Reaction time of the participants.</b> Specifically, the amount of time taken by participants to speak out words in both congruent and incongruent conditions.</i></p>
-<p><b>Q2:</b><i> What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.</i></p>
+<h1>$ Statistics: The\, Science\, of\, Decisions$</h1><p><h3>Background Information</h3></p>
+<p><i>In a Stroop task, participants are presented with a list of words with each word displayed in a color of ink. The participant’s task is to say out loud the color of the ink in which the word is printed. The task has two conditions: a congruent words condition and an incongruent words condition. In the congruent words condition, the words being displayed are color words whose names match the colors in which they are printed: for example RED is red, BLUE is blue.</i></p><p><i>In the incongruent words condition, the words displayed are color words whose names do not match the colors in which they are printed: for example PURPLE is blue, BROWN is green.</i></p><p><i>In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.</i></p><br>
+
+<h3><strong>Q1:</strong><em> What is our independent variable? What is our dependent variable?</em></h3><br>
+
+<p><strong>A1:</strong><em> An independent variable, also known an experimental or predictor variable, is a variable that is being manipulated in an experiment in order to observe the effect on a dependent variable, sometimes called an outcome variable.</em></p><p><em>In this study, our independent variable is, <strong>Congruent and Incongruent words condition.</strong> Our dependent variable is,<strong> Reaction time of the participants.</strong> Specifically, the amount of time taken by participants to speak out words in both congruent and incongruent conditions.</em></p><br>
+
+<h3><strong>Q2:</strong><em> What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.</em></h3><br>
+
 <p><b>A2:</b><i> Appropriate hypotheses for this task are:<br>
-For the Null hypothesis we are guessing that stroop test does not affect reaction time.</i></p>
-<p>$$H_o: \mu_{congruent} = \mu_{incongruent}$$</p>
+For the Null hypothesis we are guessing that stroop test does not affect reaction time.</i></p><p>$$H_o: \mu_{congruent} = \mu_{incongruent}$$</p>
 <p><i> For the Alternate hypothesis we are guessing that stroop test decreases reaction time.</i></p>
 <p>$$H_a: \mu_{congruent} &lt; \mu_{incongruent}$$</p>
-<p><i>Here $\mu_{congruent}$ means (an hypothetical) average reaction time for the congruent words condition. And $\mu_{incongruent}$ means (an hypothetical) average reaction time for incogruent words condition. We are hypothesising that average reaction time to read a set of words before and after the stroop test will be same. One the other hand, we are also proposing an alternate hypothesis which argues that stroop test will make us slower and delay our reaction time. Hence, $\mu_{congruent} < \mu_{incongruent}$ </i></p>
-<p><i>The statistical test we are going to perform on our hypostheses is: a one tailed t-test in the negative direction, at an $\alpha$ level of 0.05 and a confidence interval of 95%. Through this test, we are trying to validate whether stroop test decreases reaction time or not. Therefore, if our t-value is within the (negative) t-critical region of our chosen alpha level, we will reject the null.</i><br> 
-<i>Given that we dont know the standard deviation of the population, our sample size being less than 30 and our alternate hypothesis suggesting that $\mu_{congruent}$ will be less than $\mu_{incongruent}$ (in other words, alternate hypothesis going in the negative direction), a one tailed t-test in the negative direction will be an appropriate test to validate our hyposthesis. Also, note that because the same subjects took the tests in two different conditions, we have dependent samples. We can compare the two averages of these dependent samples with a one-tailed t-test.</i></p>
-<p><b>Q3:</b> <i>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</i></p>
-<p><b>A3:</b> <i>To answer this question, lets first look at the dataset.</i></p>
+<p><i>Here $\mu_{congruent}$ means (an hypothetical) average reaction time for the congruent words condition. And $\mu_{incongruent}$ means (an hypothetical) average reaction time for incogruent words condition. We are hypothesising that average reaction time to read a set of words before and after the stroop test will be same. One the other hand, we are also proposing an alternate hypothesis which argues that stroop test will make us slower and delay our reaction time. Hence, $\mu_{congruent} < \mu_{incongruent}$ </i></p><p><i>The statistical test we are going to perform on our hypostheses is: a one tailed t-test in the negative direction, at an $\alpha$ level of 0.05 and a confidence interval of 95%. Through this test, we are trying to validate whether stroop test decreases reaction time or not. Therefore, if our t-value is within the (negative) t-critical region of our chosen alpha level, we will reject the null.</i></p><br> 
+<p><i>Given that we dont know the standard deviation of the population, our sample size being less than 30 and our alternate hypothesis suggesting that $\mu_{congruent}$ will be less than $\mu_{incongruent}$ (in other words, alternate hypothesis going in the negative direction), a one tailed t-test in the negative direction will be an appropriate test to validate our hyposthesis. Also, note that because the same subjects took the tests in two different conditions, we have dependent samples. We can compare the two averages of these dependent samples with a one-tailed t-test.</i></p><br>
 
+<h3><b>Q3:</b> <i>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</i></h3><br>
+
+<p><b>A3:</b> <i>To answer this question, lets first look at the dataset.</i></p>
 </div>
 </div>
 </div>
@@ -15085,7 +15083,7 @@ For the Null hypothesis we are guessing that stroop test does not affect reactio
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># loading csv</span>
-<span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;stroopdata.csv&quot;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/stroopdata.csv&quot;</span><span class="p">)</span>
 <span class="n">congruent</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Congruent&quot;</span><span class="p">]</span>
 <span class="n">incongruent</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Incongruent&quot;</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -15438,10 +15436,9 @@ Ri5J0oAZ5JIkDZhBLknSgBnkkiQNmEEuSdKAGeSSJA3Y/weH5aLop0jq4AAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><i>The lowest time taken to read a set of words is 8.63 seconds and the highest time taken is 22.328 seconds as shown by the lower and upper whiskers of the box plot of congruent words condition. 
-The 1st quartile of congruent words lies at 11.712 seconds; 3rd quartile of congruent words lies at 16.398 seconds. The interquatile range of congruent words is 4.69 seconds.</i></p>
-<p><i>On the other hand, 15.687 seconds is the lowest value and 35.255 seconds is higest value of the incongruent words condition. The 1st quartile of incongruent words lies at 18.693 seconds while the 3rd quartile lies at 24.209 seconds. The interquartile range is 5.52 seconds.</i><br>
-<i>The box plots definitely imply that there is a difference between those two conditions.</i></p>
-<p><b>Q4:</b> <i>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</i></p>
+The 1st quartile of congruent words lies at 11.712 seconds; 3rd quartile of congruent words lies at 16.398 seconds. The interquatile range of congruent words is 4.69 seconds.</i></p><p><p><i>On the other hand, 15.687 seconds is the lowest value and 35.255 seconds is higest value of the incongruent words condition. The 1st quartile of incongruent words lies at 18.693 seconds while the 3rd quartile lies at 24.209 seconds. The interquartile range is 5.52 seconds.</i><br>
+<i>The box plots definitely imply that there is a difference between those two conditions.</i></p><br></p>
+<p><h3><b>Q4:</b> <i>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</i></h3><br></p>
 
 </div>
 </div>
@@ -15803,9 +15800,9 @@ gg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><i>The blue bars are the reaction time for congruent words condition and orange ones are for the incongruent words condition; the green bars are the difference between them. Lower bars indicate faster reaction time while higher bars indicate slower reaction time. Looking at the chart, we can observe a side by side comparison of how the reaction time differs before and after the test. And this comparison quite convincingly shows us that every single participant in the sample took more time in reading words after the stroop test was introduced.</i></p>
-<p><b>Q5:</b> <i>Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. Did the results match up with your expectations?</i></p>
-<p><b>A5:</b> <i> Here are a some values we need to know before we start our statistical test:</i>
+<p><p><i>The blue bars are the reaction time for congruent words condition and orange ones are for the incongruent words condition; the green bars are the difference between them. Lower bars indicate faster reaction time while higher bars indicate slower reaction time. Looking at the chart, we can observe a side by side comparison of how the reaction time differs before and after the test. And this comparison quite convincingly shows us that every single participant in the sample took more time in reading words after the stroop test was introduced.</i></p><br></p>
+<p><h3><b>Q5:</b> <i>Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. Did the results match up with your expectations?</i></h3><br></p>
+<p><p><b>A5:</b> <i> Here are a some values we need to know before we start our statistical test:</i></p>
 $$degrees\, of\, freedom: \, 23$$
 $$t-critical\, value\, for\, \alpha\; 0.05:\, -1.714$$
 $$Mean\, difference:\, -7.96\, seconds$$
